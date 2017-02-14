@@ -43,6 +43,17 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
   * This probably requires more stuff in .jammy-view, since you can't alter the branch history on the remote server.
 * Colapssable, hierarchical log.
   * If we are checking in more, we need a way to zoom out and see the big picture, ignoring the minuta of all the checkins.
+* `jammy commit` does it all
+  * That command stores the entire state of the directory structure. Followed by a `jammy push` you know that everything is backed up remotely.
+  * "-a" is the default
+  * Untracted files are resolved:
+    * perhaps via prompting the user:
+      * add
+      * ignore always (adds to .gitignore)
+    * perhaps we need a state of "checked in, but not 'added'"
+      * I often have files I don't know where to put yet, but I don't want to lose them!
+      * This state should flag the file with the person who checked them in.
+      * Only that person should be see them, by default. They don't get pulled out of the repro unless you are that person or you force it.
 
 # Feedback
 

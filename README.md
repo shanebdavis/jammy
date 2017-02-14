@@ -32,8 +32,9 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
   * It makes no sense to me that git pull and git push don't sync the ENTIRE repro by defeault.
   * Perhaps ocasionally you want local branch to just be an experiement that you don't want synced, fine - that branch should be tagged as such and therefor won't be pushed. But most branches should be pushed. There should be a warning for any branch that isn't pushed.
   * When I say "jammy push" I want to know my local repro is 100% pushed to the cloud. If my local computer blows up, I'm safe.
-* semantic versioning
-  * Are there advantages to integrating semantic versioning into jammy?
+* semantic versioning aware
+  * I'd like to force all human-checkins to declare if they are a patch, minor or major change
+  * We should automatically generate a new semantic version on the upstream branch when we merge in a subbranch.
 * EASY editing of checkin messasges. Checkin messages are CRITICAL and "git rebase" is a PITA when all you want to do is fix a type-o in your message. This is unacceptable.
   * We need to be able to fix checkin messages even on the remote repro.
   * Instead of rewriting history for the remote repro, one idea is to maintain a ".jammy_view" file in the root of the project which contains any edits for checkins, and when you view your history with a jammy-aware tool, it shows the updated checkin messages.
@@ -54,6 +55,8 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
       * I often have files I don't know where to put yet, but I don't want to lose them!
       * This state should flag the file with the person who checked them in.
       * Only that person should be see them, by default. They don't get pulled out of the repro unless you are that person or you force it.
+* `jammy add *`
+  * should ignore .gitignored files instead of erroring on them.
 
 # Feedback
 

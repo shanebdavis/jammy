@@ -35,6 +35,12 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
 * EASY editing of checkin messasges. Checkin messages are CRITICAL and "git rebase" is a PITA when all you want to do is fix a type-o in your message. This is unacceptable.
   * We need to be able to fix checkin messages even on the remote repro.
   * Instead of rewriting history for the remote repro, one idea is to maintain a ".jammy_view" file in the root of the project which contains any edits for checkins, and when you view your history with a jammy-aware tool, it shows the updated checkin messages.
+* retrospective branching / virtual branches
+  * the ability to arbitrarily edit the branch history - even on the remote repro
+  * maybe the last N checkins SHOULD have been on a new branch. Make it easy to do this.
+  * This probably requires more stuff in .jammy-view, since you can't alter the branch history on the remote server.
+* Colapssable, hierarchical log.
+  * If we are checking in more, we need a way to zoom out and see the big picture, ignoring the minuta of all the checkins.
 
 # Feedback
 

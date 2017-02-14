@@ -2,8 +2,8 @@
 If git is an assembly language, then jammy is git's high-level language.
 
 * git: incompetent, stupid, annoying, or childish person (wikipedia)[https://en.wikipedia.org/wiki/British_slang#W]
-* jammy: 1. Lucky. 2. Pleasant or desirable. (wikipedia)[https://en.wikipedia.org/wiki/British_slang#J]
-* jammy git: Lucky fellow .. usually as a result of some surprising and undeserved luck (urbandictionary)[http://www.urbandictionary.com/define.php?term=jammy%20git]
+* jammy: 1. Lucky. 2. Pleasant or desirable. [wikipedia](https://en.wikipedia.org/wiki/British_slang#J)
+* jammy git: Lucky fellow .. usually as a result of some surprising and undeserved luck [urbandictionary](http://www.urbandictionary.com/define.php?term=jammy%20git)
 
 # Goals
 
@@ -44,4 +44,4 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
 
 # Feedback
 
-Please contact me if you have ideas on what should be in a high-level-language for controlling git.
+Please contact me if you have ideas on what should be in a high-level-language for controlling git: [shanebdavis](https://github.com/shanebdavis)

@@ -5,6 +5,8 @@ If git is an assembly language, then jammy is git's high-level language.
 * jammy: 1. Lucky. 2. Pleasant or desirable. [wikipedia](https://en.wikipedia.org/wiki/British_slang#J)
 * jammy git: Lucky fellow .. usually as a result of some surprising and undeserved luck [urbandictionary](http://www.urbandictionary.com/define.php?term=jammy%20git)
 
+Jammy is a form of metagit. There is already a project with this name ((metagit)[https://github.com/stettberger/metagit]), and Jammy is more fun, anyway :).
+
 # Goals
 
 * never use the git command-line tool again

@@ -1,7 +1,7 @@
 # jammy
 If git is an assembly language, then jammy is git's high-level language.
 
-* git: incompetent, stupid, annoying, or childish person (wikipedia)[https://en.wikipedia.org/wiki/British_slang#W]
+* git: incompetent, stupid, annoying, or childish person [wikipedia](https://en.wikipedia.org/wiki/British_slang#W)
 * jammy: 1. Lucky. 2. Pleasant or desirable. [wikipedia](https://en.wikipedia.org/wiki/British_slang#J)
 * jammy git: Lucky fellow .. usually as a result of some surprising and undeserved luck [urbandictionary](http://www.urbandictionary.com/define.php?term=jammy%20git)
 

@@ -57,6 +57,9 @@ I have lots of ideas how to move beyond git. Git is a wonderful tool. It gets th
       * Only that person should be see them, by default. They don't get pulled out of the repro unless you are that person or you force it.
 * `jammy add *`
   * should ignore .gitignored files instead of erroring on them.
+* `jammy ignore <string>`
+  * adds <string> to the .gitignore file
+
 
 # Feedback
 
